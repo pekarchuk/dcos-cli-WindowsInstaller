@@ -9,11 +9,11 @@ CreateAppDir=yes
 DefaultDirName={pf}\dcos-cli
 DisableProgramGroupPage=yes
 DefaultGroupName=DCOS-CLI
-WizardSmallImageFile=mesosphere.bmp
-WizardImageFile=mesosphere_side.bmp
+WizardSmallImageFile="..\data\mesosphere.bmp"
+WizardImageFile="..\data\mesosphere_side.bmp"
 PrivilegesRequired=admin
 ChangesEnvironment=yes
-SetupIconFile="Setupicon.ico"
+SetupIconFile="..\data\Setupicon.ico"
 
 [Files]
 Source: "PythonConf.exe"; DestDir: "{tmp}"
